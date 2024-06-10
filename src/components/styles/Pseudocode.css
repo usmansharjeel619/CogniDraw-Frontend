@@ -1,0 +1,30 @@
+.mainOutPut {
+  background-color: #d6e1ff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerOutPut {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  width: 70%;
+  margin-top: -100px;
+  margin-bottom: 35px;
+}
+.imgOutPut {
+  margin-left: 15px;
+}
+#outputtext {
+  resize: none;
+  outline: none;
+  box-shadow: 0 4px 4px rgba(13, 14, 13, 0.1);
+  background: linear-gradient(to bottom, #fcfbf9, #b1c5db);
+}
+#outputtext:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(250, 248, 248, 0.2);
+}

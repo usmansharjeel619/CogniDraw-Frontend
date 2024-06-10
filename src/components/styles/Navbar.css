@@ -1,0 +1,35 @@
+#mainNav {
+  background-color: #d6e1ff;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.imglogo {
+  margin-left: 25px;
+}
+.a {
+  color: rgb(13, 13, 13);
+  margin-right: 50px;
+}
+/* .dropdown {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+} */
+
+.dropdown-content {
+  display: flex;
+  background-color: none;
+  font-weight: 100px;
+  /* z-index: 1; */
+}
+
+.dropdown-content a {
+  padding: 12px;
+  text-decoration: none;
+  color: #333;
+}
